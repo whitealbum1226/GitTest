@@ -16,15 +16,11 @@ void AMyActor::BeginPlay()
 {
 	Super::BeginPlay();
 	
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 	UE_LOG(LogTemp, Warning, TEXT("AMyActor has begun play!"));
-=======
+
 	UE_LOG(LogTemp, Warning, TEXT("AMyActor has begun play~~~"));
->>>>>>> Refac
-=======
-	//UE_LOG(LogTemp, Warning, TEXT("AMyActor has begun play!"));
->>>>>>> 2b4099c61fb25c15d3e5d5cbc1939241bbf47695
+
 }
 
 // Called every frame
@@ -32,14 +28,8 @@ void AMyActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 	UE_LOG(LogTemp, Warning, TEXT("AMyActor is ticking!"));
-=======
-	UE_LOG(LogTemp, Warning, TEXT("AMyActor is ticking~~~"));
->>>>>>> Refac
-=======
-	//UE_LOG(LogTemp, Warning, TEXT("AMyActor is ticking!"));
->>>>>>> 2b4099c61fb25c15d3e5d5cbc1939241bbf47695
+
 }
 
