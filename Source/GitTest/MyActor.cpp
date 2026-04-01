@@ -16,6 +16,7 @@ void AMyActor::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	UE_LOG(LogTemp, Warning, TEXT("AMyActor has begun play!"));
 }
 
 // Called every frame
@@ -23,5 +24,6 @@ void AMyActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	UE_LOG(LogTemp, Warning, TEXT("AMyActor is ticking!"));
 }
 
